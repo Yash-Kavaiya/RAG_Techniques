@@ -30,7 +30,7 @@ class RAG_Graph:
         os.environ["NEO4J_USERNAME"] = "neo4j"
         os.environ["NEO4J_PASSWORD"]= "password"
         self.graph = Neo4jGraph()
-        self.llm = ChatGroq(temperature = 0.5,groq_api_key=os.getenv("GROQ_API_KEY"),model_name="llama3-70b-8192")
+        self.llm = ChatGroq(temperature = 0,groq_api_key=os.getenv("GROQ_API_KEY"),model_name="llama3-70b-8192")
     
     def create_graph(self,docs,TMP_DIR):
         for source_docs in docs:

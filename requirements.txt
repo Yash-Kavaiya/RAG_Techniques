@@ -1,0 +1,12 @@
+streamlit
+langchain-community
+langchain-huggingface
+faiss-cpu
+python-dotenv
+py2neo
+pyvis
+python-docx
+langchain-groq
+langchain-experimental
+neo4j
+streamlit-option-menu
